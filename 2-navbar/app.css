@@ -19,17 +19,19 @@ nav {
     overflow: hidden;
     position: fixed;
     width: 100vw;
+    
 }
 
 ul {
     list-style: none;
-
+    float: right;
+    width: 42%;
 }
 
 a {
 
     display: inline;
-    float: left;
+   
     color: #f2f2f2;
     text-align: center;
     padding: 1% 3%;
@@ -42,7 +44,8 @@ a {
 
 li {
     display: inline;
-
+    
+    
 }
 
 section {
@@ -64,4 +67,5 @@ p {
 h1{
     margin: 30px;
     text-transform: uppercase;
+    display: block;
 }

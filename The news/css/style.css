@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+.title{
+    width: 100vw;
+    height: 15vh;
+    background-color: red;
+    color: white;
+}
+.the-news-paper{
+  font-family: sans-serif;
+  font-size: 2rem;
+  
+}

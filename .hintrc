@@ -17,6 +17,13 @@
           "scroll-behavior"
         ]
       }
+    ],
+    "detect-css-reflows/layout": "off",
+    "axe/structure": [
+      "default",
+      {
+        "list": "off"
+      }
     ]
   }
 }
