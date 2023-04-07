@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,10 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="app.css">
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 <body>
     <!-- nav  -->
+    
     <nav>
         <header class="facebook">facebook</header>
         <ul>
@@ -20,9 +22,9 @@
 
                 <div>
                     <label for="" class="e">Email</label>
-                    
+
                 </div>
-                
+
                 <div>
                     <input type="email">
                 </div>
@@ -38,45 +40,64 @@
                 </div>
 
             </li>
-            <button class="buttona">
-                login
+            <button class="button">
+                log in
             </button>
         </ul>
     </nav>
-        <!-- end -->
-        <!-- main -->
-        <main>
-            <section>
-                <header class="fack">Facebook helps you connect and share with the people in your life</header>
-                <img src="./img/Screenshot_3.png" alt="">
-            </section>
-            <section class="log">
-                <header class="sing">Sing up</header>
-                <h1 class="ak">   </h1>
-                <p>It's free and always will be</p>
-                <br><br>
+    <!-- end -->
+    <!-- main -->
+    <main>
+        <section>
+            <header class="fack">Facebook helps you connect and share with the people in your life</header>
+            <img src="./img/Screenshot_3.png" alt="">
+        </section>
+        <section class="log">
+            <header class="sing">Sing up</header>
+
+            <p>It's free and always will be</p>
+            <h1 class="ak"> </h1>
+            <br><br>
+            <div class="form">
                 <form action="">
-                    <div >
-                       <label for="" class="emali" >First Name:  </label>
+                    <div>
+                        <label for="" class="emali">First Name: </label>
                         <input type="text">
                     </div>
-                    <div >
-                        <label for="" class="emali" >Last Name: </label>
-                         <input type="text">
-                     </div>
                     <div>
-                        <label for="" class="emali">gender: </label>
-                <input type="radio" name="male"> male 
-                <input type="radio" name="male"> female
+                        <label for="" class="emali">Last Name: </label>
+                        <input type="text">
                     </div>
                     <div>
-                        <button class="button">Sing up</button>
+                        <label for="" class="emali">Your Email: </label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="" class="emali r">Re-enter Email: </label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="" class="emali r">New Password: </label>
+                        <input type="text">
+                    </div>
+                    
+                    <div>
+                        <label for="" class="emali">i am: </label>
+                        <select name="" id="" class="box">
+                            <i class="fa fa-square-caret-down"></i>
+                            <option value="male">male</option>
+                            <option value="female">female</option>
+                        </select>
+                    </div>
+                    <div>
+                        <button class="button">Sign up</button>
                     </div>
                     <div></div>
                 </form>
-            </section>
-        </main>
-        <!-- end -->
+            </div>
+        </section>
+    </main>
+    <!-- end -->
 </body>
 
 </html>
